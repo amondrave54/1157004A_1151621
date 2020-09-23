@@ -134,7 +134,7 @@ function crearPDF(){
   const archivoTemporal =  documento.makeCopy(carpetaDrive);
   var documentoPdf = DocumentApp.openById(archivoTemporal.getId());
  // armo el documento del pdf
-  const pdf = archivoTemporal.getAs(MimeType.);
+  const pdf = archivoTemporal.getAs(MimeType.PDF);
  // Creo el PDF
   carpetaDrive.createFile(pdf).setName("1151007A_1151621");
   
