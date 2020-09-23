@@ -134,12 +134,10 @@ function crearPDF(){
   const archivoTemporal =  documento.makeCopy(carpetaDrive);
   var documentoPdf = DocumentApp.openById(archivoTemporal.getId());
  // armo el documento del pdf
-  const pdf = archivoTemporal.getAs(MimeType.PDF);
+  const pdf = archivoTemporal.getAs(MimeType.);
  // Creo el PDF
   carpetaDrive.createFile(pdf).setName("1151007A_1151621");
   
   SpreadsheetApp.getUi().alert("El archivo PDF fue creado con éxito");
 }
   
-  SpreadsheetApp.getUi().alert("El archivo PDF fue creado con éxito");
-}
