@@ -140,3 +140,6 @@ function crearPDF(){
   
   SpreadsheetApp.getUi().alert("El archivo PDF fue creado con éxito");
 }
+  
+  SpreadsheetApp.getUi().alert("El archivo PDF fue creado con éxito");
+}
